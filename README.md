@@ -6,8 +6,8 @@ https://github.com/Dauno/shopping-cart-back
 ## Install
 
 ```bash
-git clone https://github.com/Dauno/shopping-cart-back.git
-$ cd /shopping-cart-back
+git clone https://github.com/Dauno/shopping-cart.git
+$ cd /shopping-cart
 $ npm i
 ```
 
