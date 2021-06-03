@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Cart from './components/Cart';
+import Header from './components/Header';
+import Filters from './components/Filters';
+import Products from './components/Products';
+import MainContainer from './containers/Main';
+import CartProvider from './context/Cart/provider';
+
+const App: React.FC = () => (
+  <CartProvider>
+    <MainContainer>
+      <Header />
+      <Filters />
+      <Products />
+      <Cart />
+    </MainContainer>
+  </CartProvider>
+);
 
 export default App;

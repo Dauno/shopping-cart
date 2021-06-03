@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "brand": "Marca1",
+            "threshold": 120000,
+            "discount": 8000
+        },
+        {
+            "brand": "Marca2",
+            "threshold": 90000,
+            "discount": 5000
+        },
+        {
+            "brand": "Marca3",
+            "threshold": 140000,
+            "discount": 9000
+        },
+        {
+            "brand": "Marca4",
+            "threshold": 110000,
+            "discount": 8700
+        },
+        {
+            "brand": "Marca5",
+            "threshold": 130000,
+            "discount": 12000
+        },
+        {
+            "brand": "Marca6",
+            "threshold": 250000,
+            "discount": 26000
+        },
+        {
+            "brand": "Marca7",
+            "threshold": 275000,
+            "discount": 60000
+        },
+        {
+            "brand": "Marca8",
+            "threshold": 200000,
+            "discount": 18000
+        },
+        {
+            "brand": "Marca9",
+            "threshold": 200000,
+            "discount": -10000
+        }    
+    ]
+}

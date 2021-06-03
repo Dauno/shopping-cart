@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  shopping-cart-front:
+    container_name: shopping-cart-front
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'
